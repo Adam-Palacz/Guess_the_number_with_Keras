@@ -63,6 +63,7 @@ oauthlib=3.0.1=py_0
 olefile=0.46=pyh9f0ad1d_1
 openssl=1.1.1i=h8ffe710_0
 opt_einsum=3.3.0=py_0
+pandas=1.2.1=pypi_0
 pillow=8.1.0=py38hf7ce48b_1
 pip=21.0=pyhd8ed1ab_0
 protobuf=3.14.0=py38h885f38d_1
@@ -82,6 +83,7 @@ pysocks=1.7.1=py38haa244fe_3
 python=3.8.6=h7840368_4_cpython
 python-dateutil=2.8.1=py_0
 python_abi=3.8=1_cp38
+pytz=2020.5=pypi_0
 pyyaml=5.4.1=py38h294d835_0
 qt=5.12.9=h5909a2a_3
 requests=2.25.1=pyhd3deb0d_0
