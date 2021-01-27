@@ -17,4 +17,4 @@ def train_model(model_name):
 
     network.fit(train_images, train_labels, epochs=5, batch_size=128)
     network.save(f'{model_name}.model')
-    return "Model saved"
+
