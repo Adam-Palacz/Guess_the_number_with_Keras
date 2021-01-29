@@ -8,6 +8,7 @@ Application interface is located in main_app.py. Interface give us 5 options:
 ### 1. Show available test numbers
 Show all available images numbers from mnist library which we can test our model.(test number is that same as number in test image)
 In function show_test_numbers we have commented option showing all dataframe (9999 numbers!) 
+
 ![test_numbers](graphs/show_test_numbers.png)
 
 ### 2. Test model using test number
