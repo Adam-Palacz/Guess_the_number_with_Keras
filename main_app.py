@@ -2,32 +2,45 @@ from train_model import train_model
 from test_model import test_model
 from plot_number import plot_number
 from test_image import test_image
-from keras import models
 from keras.datasets import mnist
 import pandas as pd
 
 
 # Use only if you didn't create model
 def train_new_model():
+    """Train new model recognizing numbers based on neural network and Keras library.
+
+    :return: string informing about successful created and saved model
+    """
     model_name = input("Input model name")
     train_model(model_name)
     return "Model saved"
 
 
-# Test model using test dataframe
-
-
 def show_test_numbers():
+    """Show all available images numbers from mnist library which we can test our model.
+    (test number is that same as number in test image)
+
+    :return: Pandas dataframe with test numbers and their indexes in table
+    """
+    # train_images and train_labels aren't used but we need them for importing mnist data
     (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
-    result = pd.DataFrame(test_labels)
-    return result.head(100)
+    result = pd.DataFrame(test_labels, columns=["test numbers"])
+    return result
 
 
 def test_model_with_numbers():
+    """Choose index number from mnist test data and test correctness trained model
+
+    :return Error information if our input isn't a number or that number isn't in range 0-999 corresponding test label
+    index.
+    If our input is correct we get test_model function result which takes imputed mnist test image label and return
+    guessed number from our model. Function also plot image our chosen label.
+    """
     try:
-        number = int(input("Input test label number(1-999):"))
-    except ValueError as error:
-        print("Wrong input", error)
+        number = int(input("Input test label number(0-999):"))
+    except ValueError as err:
+        print("Wrong input", err)
     else:
         if number not in range(0, 1000):
             print("Number not in range")
@@ -36,6 +49,7 @@ def test_model_with_numbers():
             plot_number(number)
 
 
+# application interface
 if __name__ == '__main__':
     while True:
         options = {1: "Show part test numbers", 2: "Test model using test number",
