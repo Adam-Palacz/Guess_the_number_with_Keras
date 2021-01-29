@@ -25,7 +25,7 @@ To proceed properly we have to clik on save button and X button to close window.
 
 ![paint_app](graphs/paint_app.png)
 
-After that we get information about number guessed by computer(trainded model)
+After that we get information about number guessed by computer(trained model)
 
 ![test_image](graphs/test_model_with_image.png)
 
