@@ -3,3 +3,4 @@ Small application using easy neural network based on Keras library to guess by c
 
 # Interface
 Application interface is located in main_app.py. Interface gives 5 options:
+
