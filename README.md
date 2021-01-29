@@ -22,9 +22,11 @@ guessed number from our model. Function also plot image chosen label.
 Main option. 
 Appers paint app windows created in Tkinker where we can paint a number.
 To proceed properly we have to clik on save button and X button to close window.
+
 ![paint_app](graphs/paint_app.png)
 
 After that we get information about number guessed by computer(trainded model)
+
 ![test_image](graphs/test_model_with_image.png)
 
 *Important! Correctness of the answer is medium (propably 60-70%) depending on accuracy drawn number.  
