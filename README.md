@@ -36,12 +36,14 @@ To increase success rate propably we should correct paint app and/or strengthen 
 ### 4. Train new model.
 Train new model recognizing numbers based on neural network and Keras library.
 Training process can take few seconds depending on user processor.
+
 ![train_model](graphs/train_new_model.png)
 
 *We get warrning from Tensorflow about required updating but it does not affect on model.
 
 ### 5. End Program 
 Program is ending and we get farewell information.
+
 ![end_program](graphs/end_program.png)
 
 
