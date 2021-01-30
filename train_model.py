@@ -3,7 +3,7 @@ from keras.datasets import mnist
 from keras.utils import to_categorical
 
 
-def train_model(model_name):
+def train_model():
     (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
 
     network = models.Sequential()
@@ -16,5 +16,5 @@ def train_model(model_name):
     train_images = train_images.astype('float32') / 255
 
     network.fit(train_images, train_labels, epochs=5, batch_size=128)
-    network.save(f'{model_name}.model')
+    network.save("number_reader.model")
 

@@ -12,8 +12,7 @@ def train_new_model():
 
     :return: string informing about successful created and saved model
     """
-    model_name = input("Input model name")
-    train_model(model_name)
+    train_model()
     return "Model saved"
 
 
@@ -26,6 +25,8 @@ def show_test_numbers():
     # train_images and train_labels aren't used but we need them for importing mnist data
     (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
     result = pd.DataFrame(test_labels, columns=["test numbers"])
+    # if we want to see all dataframe (9999 numbers!)
+    # pd.set_option("display.max_rows", None)
     return result
 
 
@@ -45,14 +46,14 @@ def test_model_with_numbers():
         if number not in range(0, 1000):
             print("Number not in range")
         else:
-            print(test_model(number))
+            print(f"Computer guessed: {test_model(number)}")
             plot_number(number)
 
 
 # application interface
 if __name__ == '__main__':
     while True:
-        options = {1: "Show part test numbers", 2: "Test model using test number",
+        options = {1: "Show available test numbers", 2: "Test model using test number",
                    3: "Test model using painted number", 4: "Train new model (Use if you are using app first time!)",
                    5: "End program"}
         print("\nMENU\n")
@@ -74,6 +75,9 @@ if __name__ == '__main__':
             elif option == 4:
                 print(train_new_model())
             elif option == 5:
+                print("""Thank you for launching the application. See you later.
+                
+                Author: Adam Palacz""")
                 break
             else:
                 print("Wrong option")
