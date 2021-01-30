@@ -1,5 +1,5 @@
 # Guess_the_number_with_Keras
-Small application using easy neural network based on Keras library to guess by computer the number imputed from user by Paint App created in Tkinker. Right now Correctness of the answer is medium (propably 60-70%) depending on accuracy drawn number.
+Small application using easy neural network based on Keras library to guess by computer the number imputed from user by Paint App created in Tkinker. Right now Correctness of the answer is medium (probably 60-70%) depending on accuracy drawn number.
 
 # Interface
 Application interface is located in main_app.py. Interface provides us 5 options:
@@ -21,7 +21,7 @@ guessed number from our model. Function also plot image chosen label.
 ### 3. Test model using painted number
 Main option. 
 Appers paint app windows created in Tkinker where we can paint a number.
-To proceed properly we have to clik on save button and X button to close window.
+To proceed properly we have to click on save button and X button to close window.
 
 ![paint_app](graphs/paint_app.png)
 
@@ -29,17 +29,17 @@ After that we get information about number guessed by computer(trained model)
 
 ![test_image](graphs/test_model_with_image.png)
 
-*Important! Correctness of the answer is medium (propably 60-70%) depending on accuracy drawn number.  
+*Important! Correctness of the answer is medium (probably 60-70%) depending on accuracy drawn number.  
 It is probably caused by low quality number saved image in Tkinker (Drawn lines are diffrent on saved image. We can see that after saving image in main folder as "image.png")
 To increase success rate propably we should correct paint app and/or strengthen trained model (to do in future)
 
 ### 4. Train new model.
 Train new model recognizing numbers based on neural network and Keras library.
-Training process can take few seconds depending on user processor.
+Training process can take few seconds depending on user's processor.
 
 ![train_model](graphs/train_new_model.png)
 
-*We get warrning from Tensorflow about required updating but it does not affect on model.
+*We get warrning from Tensorflow about required updating but it does not affect the model.
 
 ### 5. End Program 
 Program is ending and we get farewell information.
