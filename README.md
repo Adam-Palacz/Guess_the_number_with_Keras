@@ -30,11 +30,18 @@ After that we get information about number guessed by computer(trained model)
 ![test_image](graphs/test_model_with_image.png)
 
 *Important! Correctness of the answer is medium (propably 60-70%) depending on accuracy drawn number.  
-It is probably caused by low quality number saved image in Tkinker (Drawn lines are diffrent on saved image)
+It is probably caused by low quality number saved image in Tkinker (Drawn lines are diffrent on saved image. We can see that after saving image in main folder as "image.png")
 To increase success rate propably we should correct paint app and/or strengthen trained model (to do in future)
 
+### 4. Train new model.
+Train new model recognizing numbers based on neural network and Keras library.
+Training process can take few seconds depending on user processor.
+![train_model](graphs/train_new_model.png)
 
+*We get warrning from Tensorflow about required updating but it does not affect on model.
 
-
+### 5. End Program 
+Program is ending and we get farewell information.
+![end_program](graphs/end_program.png)
 
 
