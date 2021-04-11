@@ -13,11 +13,12 @@ chardet @ file:///D:/bld/chardet_1602255508636/work
 click==7.1.2
 cryptography @ file:///D:/bld/cryptography_1610338909973/work
 cycler==0.10.0
+flatbuffers==1.12
 gast==0.3.3
 google-auth @ file:///home/conda/feedstock_root/build_artifacts/google-auth_1608136875028/work
 google-auth-oauthlib==0.4.1
 google-pasta==0.2.0
-grpcio @ file:///D:/bld/grpcio_1610588714889/work
+grpcio==1.32.0
 h5py @ file:///D:/bld/h5py_1602551986735/work
 idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
 importlib-metadata @ file:///D:/bld/importlib-metadata_1610355403747/work
@@ -28,7 +29,7 @@ kiwisolver @ file:///D:/bld/kiwisolver_1610099948875/work
 Markdown @ file:///home/conda/feedstock_root/build_artifacts/markdown_1603668500820/work
 matplotlib @ file:///D:/bld/matplotlib-suite_1605180506412/work
 multidict @ file:///D:/bld/multidict_1610319170773/work
-numpy==1.18.5
+numpy==1.19.5
 oauthlib==3.0.1
 olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
 opt-einsum==3.3.0
@@ -57,8 +58,8 @@ scipy==1.4.1
 six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
 tensorboard @ file:///home/conda/feedstock_root/build_artifacts/tensorboard_1610699261066/work/tensorboard-2.4.1-py3-none-any.whl
 tensorboard-plugin-wit @ file:///home/conda/feedstock_root/build_artifacts/tensorboard-plugin-wit_1611075653546/work/tensorboard_plugin_wit-1.8.0-py3-none-any.whl
-tensorflow==2.3.0
-tensorflow-estimator==2.3.0
+tensorflow==2.4.1
+tensorflow-estimator @ file:///home/conda/feedstock_root/build_artifacts/tensorflow-estimator_1610655765755/work/tensorflow_estimator-2.4.0-py2.py3-none-any.whl
 termcolor==1.1.0
 tornado @ file:///D:/bld/tornado_1610094858390/work
 typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1602702424206/work
