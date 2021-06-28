@@ -1,5 +1,5 @@
 # Guess_the_number_with_Keras
-Small application using easy neural network based on Keras library to guess by computer the number imputed from user by Paint App created in Tkinker. Right now correctness of the answer is medium (probably 60-70%) depending on accuracy drawn number.
+Application using easy neural network based on Keras library to guess by computer the number imputed from user by Paint App created in Tkinker. Right now correctness of the answer is medium (probably 60-70%) depending on accuracy drawn number.
 
 # Interface
 Application interface is located in main_app.py. Interface provides us 5 options:
